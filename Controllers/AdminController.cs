@@ -10,7 +10,7 @@ namespace TempleteAddingExample.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View11();
         }
 
         public IActionResult AddBook()
