@@ -12,5 +12,18 @@ namespace TempleteAddingExample.Controllers
         {
             return View();
         }
+
+        public IActionResult AddBook()
+        {
+            return View();
+        }
+
+
+        public IActionResult Book2()
+        {
+
+
+            return PartialView();
+        }
     }
 }
